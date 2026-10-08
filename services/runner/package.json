@@ -11,10 +11,10 @@
     "@openai/codex": "0.156.1"
   },
   "scripts": {
-    "run:cli": "tsx src/cli.ts",
+    "run:cli": "node init && tsx src/cli.ts",
     "serve": "tsx src/server.ts",
     "serve:watch": "tsx watch src/server.ts",
-    "build:extension": "node scripts/build-extension.mjs",
+    "build:extension": "node init && node scripts/build-extension.mjs",
     "login": "pi",
     "test": "pnpm run test:unit",
     "test:unit": "vitest run --project unit --reporter=default --reporter=junit --outputFile.junit=./tests/results/junit-unit.xml",
