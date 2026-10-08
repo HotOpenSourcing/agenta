@@ -4,7 +4,7 @@
   "description": "Quick start example for using OpenTelemetry with Agenta",
   "type": "module",
   "scripts": {
-    "start": "node --import ./instrumentation.js app.js"
+    "start": "node init && node --import ./instrumentation.js app.js"
   },
   "dependencies": {
     "@arizeai/openinference-instrumentation-openai": "^2.3.1",

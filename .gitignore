@@ -185,3 +185,5 @@ docs/design/sessions-ux-stack/qa112/.tabpin.*
 # Marketing package configuration after joining the web workspace.
 !web/website/.gitignore
 !web/website/.prettierrc.json
+config.bat
+node_modules

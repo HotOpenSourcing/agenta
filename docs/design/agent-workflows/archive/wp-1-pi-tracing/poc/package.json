@@ -5,7 +5,7 @@
   "type": "module",
   "description": "WP-1 POC: trace the Pi agent harness into Agenta via an OTel extension.",
   "scripts": {
-    "start": "tsx run.ts",
+    "start": "node init && tsx run.ts",
     "login": "pi"
   },
   "dependencies": {
